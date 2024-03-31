@@ -2,16 +2,37 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000946
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 12326436184
+  numberOfFiles: 912
+  numberOfSubjects: 26
   schemaKey: AssetsSummary
-citation: Gao, Huan (2024) Cotico-thalamocortical (CTC) Pathway Neuronal Signals in
-  the Anesthetized Rat Responding to Trials of Transcranial Focused Ultrasound Stimulation
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000946/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ElectrodeGroup
+citation: Gao, Huan; Ramachandran, Sandhya; He, Bin; Yu Kai; NIH NS131069 (2024) Neural
+  Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial Focused
+  Ultrasound Stimulation (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000946/draft
 contributor:
 - affiliation: []
   email: huangao@andrew.cmu.edu
@@ -20,27 +41,68 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- includeInCitation: true
+  name: Ramachandran, Sandhya
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: He, Bin
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Yu Kai
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: false
+  name: NIH NS124564
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: NIH EB029354
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: true
+  name: NIH NS131069
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Carnegie Mellon University
+  roleName:
+  - dcite:Affiliation
+  schemaKey: Organization
 dateCreated: '2024-03-30T06:04:45.523293+00:00'
-description: In these recordings, we recorded neuronal activities from cortical-thalamocortical
-  (CTC) pathway, especially the somatosensory cortex (S1), motor cortex (M1) and posteromedial
+description: "In these recordings, we recorded neuronal activities from cortical-thalamocortical
+  (CTC) pathway, including the somatosensory cortex (S1), motor cortex (M1) and posteromedial
   complex (PoM) of the thalamus responded to different PRFs (pulse repetition frequencies)
   or DCs (duty cycles) of transcranial ultrasound focused stimulation (tFUS) using
-  a phased ultrasound array to stimulate S1, M1 or PoM. These recordings also include
-  neuronal activities recorded from the auditory cortex (AC) with tFUS targeting at
-  S1. Recordings for each target are taken using 32-channel Neuronexus electrodes.
-  Ultrasound stimulation is delivered every 2.5 seconds and each recording has 500
-  trials. The spike time tiling coefficient (STTC) of neurons of different areas is
-  included in this dataset.
+  a 128-element transducer to stimulate either at S1, M1 or PoM. Also, we tested the
+  neural responses of the auditory cortex (AC) with tFUS targeting at S1. Recordings
+  for each target are taken using 32-channel Neuronexus electrodes. Ultrasound stimulation
+  is delivered every 2.5 seconds and each recording has 500 trials. \nEach recording
+  contains two areas (64-channel). The spike time tiling coefficient (STTC) of neurons
+  cross-area and within-area is included in the folders named with STTC."
+ethicsApproval: []
 id: DANDI:000946/draft
 identifier: DANDI:000946
+keywords: []
 license:
-- spdx:CC0-1.0
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000946/versions/draft/assets/
-name: Cotico-thalamocortical (CTC) Pathway Neuronal Signals in the Anesthetized Rat
-  Responding to Trials of Transcranial Focused Ultrasound Stimulation
+name: Neural Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial
+  Focused Ultrasound Stimulation
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000946/draft
 version: draft
+wasGeneratedBy: []
