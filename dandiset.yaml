@@ -30,9 +30,9 @@ assetsSummary:
   variableMeasured:
   - Units
   - ElectrodeGroup
-citation: Gao, Huan; Ramachandran, Sandhya; He, Bin; Yu Kai; NIH NS131069 (2024) Neural
-  Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial Focused
-  Ultrasound Stimulation (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000946/draft
+citation: Gao, Huan; Ramachandran, Sandhya; He, Bin; Yu Kai (2024) Neural Pathways
+  Modulation in the Anesthetized Rat Elicited by Trials of Transcranial Focused Ultrasound
+  Stimulation (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000946/draft
 contributor:
 - affiliation: []
   email: huangao@andrew.cmu.edu
@@ -63,11 +63,6 @@ contributor:
   schemaKey: Organization
 - includeInCitation: false
   name: NIH EB029354
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- includeInCitation: true
-  name: NIH NS131069
   roleName:
   - dcite:Funder
   schemaKey: Organization
