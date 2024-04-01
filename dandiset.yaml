@@ -19,9 +19,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 28744682192
-  numberOfFiles: 997
-  numberOfSubjects: 29
+  numberOfBytes: 53698687392
+  numberOfFiles: 1098
+  numberOfSubjects: 34
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -72,16 +72,21 @@ contributor:
   - dcite:Affiliation
   schemaKey: Organization
 dateCreated: '2024-03-30T06:04:45.523293+00:00'
-description: "In these recordings, we recorded neuronal activities from cortical-thalamocortical
+description: 'In these recordings, we recorded neuronal activities from cortical-thalamocortical
   (CTC) pathway, including the somatosensory cortex (S1), motor cortex (M1) and posteromedial
   complex (PoM) of the thalamus responded to different PRFs (pulse repetition frequencies)
-  or DCs (duty cycles) of transcranial ultrasound focused stimulation (tFUS) using
+  or Pulse Durations (PDs) of transcranial ultrasound focused stimulation (tFUS) using
   a 128-element transducer to stimulate either at S1, M1 or PoM. Also, we tested the
   neural responses of the auditory cortex (AC) with tFUS targeting at S1. Recordings
   for each target are taken using 32-channel Neuronexus electrodes. Ultrasound stimulation
-  is delivered every 2.5 seconds and each recording has 500 trials. \nEach recording
-  contains two areas (64-channel). The spike time tiling coefficient (STTC) of neurons
-  cross-area and within-area is included in the folders named with STTC."
+  is delivered every 2.5 seconds and each recording has 500 trials. The ultrasound
+  duration and pressure level used in each recording is 67ms and ~90kPa. The PRFs
+  and PDs for each recording can be found in the identifier field. For example, in
+  BH494_1500_200_67_5, the PRF is 1500Hz and PD is 200us.
+
+  Each recording contains two areas (64-channel). The spike time tiling coefficient
+  (STTC) of neurons cross-area and within-area is included in the folders named with
+  STTC.'
 ethicsApproval: []
 id: DANDI:000946/draft
 identifier: DANDI:000946
