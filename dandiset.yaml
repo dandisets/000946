@@ -71,6 +71,11 @@ contributor:
   roleName:
   - dcite:Affiliation
   schemaKey: Organization
+- includeInCitation: false
+  name: NIH NS13106
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-03-30T06:04:45.523293+00:00'
 description: 'In these recordings, we recorded neuronal activities from cortical-thalamocortical
   (CTC) pathway, including the somatosensory cortex (S1), motor cortex (M1) and posteromedial
