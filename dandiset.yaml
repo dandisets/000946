@@ -78,7 +78,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-03-30T06:04:45.523293+00:00'
-description: In these recordings, we recorded neuronal activities from cortical-thalamocortical
+description: 'In these recordings, we recorded neuronal activities from cortical-thalamocortical
   (CTC) pathway, including the somatosensory cortex (S1) posteromedial complex (POm)
   of the thalamus responded to different PRFs (pulse repetition frequencies) or Pulse
   Durations (PDs) of transcranial ultrasound focused stimulation (tFUS) using a 128-element
@@ -90,7 +90,12 @@ description: In these recordings, we recorded neuronal activities from cortical-
   can be found in the identifier field. For example, in BH494_1500_200_67_5, the PRF
   is 1500Hz and PD is 200us.Each recording contains two areas (64-channel). The spike
   time tiling coefficient (STTC) of neurons cross-area and within-area is included
-  in the folders named with STTC.
+  in the folders named with STTC.  The detailed description on the data can be found
+  in the following publication:  Gao H, Ramachandran S, Yu K, He B: "Transcranial
+  focused ultrasound modulates feedforward and feedback cortico-thalamo-cortical pathways
+  by selectively activating excitatory neurons," The Journal of Neuroscience, DOI:
+  10.1523/JNEUROSCI.2218-24.2025, 2025.  If you would use part of the dataset, please
+  cite the above publication.'
 ethicsApproval: []
 id: DANDI:000946/draft
 identifier: DANDI:000946
