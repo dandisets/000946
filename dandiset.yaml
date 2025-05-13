@@ -31,7 +31,7 @@ assetsSummary:
   variableMeasured:
   - Units
   - ElectrodeGroup
-citation: Gao, Huan; Ramachandran, Sandhya; He, Bin; Yu, Kai (2025) Neural Pathways
+citation: Gao, Huan; Ramachandran, Sandhya; Yu, Kai; He, Bin (2025) Neural Pathways
   Modulation in the Anesthetized Rat Elicited by Trials of Transcranial Focused Ultrasound
   Stimulation (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000946/draft
 contributor:
@@ -48,15 +48,15 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- email: bhe1@andrew.cmu.edu
-  includeInCitation: true
-  name: He, Bin
-  roleName:
-  - dcite:Author
-  schemaKey: Person
 - email: kaiyu1@andrew.cmu.edu
   includeInCitation: true
   name: Yu, Kai
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: bhe1@andrew.cmu.edu
+  includeInCitation: true
+  name: He, Bin
   roleName:
   - dcite:Author
   schemaKey: Person
