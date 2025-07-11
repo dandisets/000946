@@ -33,7 +33,7 @@ assetsSummary:
   - ElectrodeGroup
 citation: Gao, Huan; Ramachandran, Sandhya; Yu, Kai; He, Bin (2025) Neural Pathways
   Modulation in the Anesthetized Rat Elicited by Trials of Transcranial Focused Ultrasound
-  Stimulation (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000946/draft
+  Stimulation (Version 0.250711.1640) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000946/0.250711.1640
 contributor:
 - affiliation: []
   email: huangao@andrew.cmu.edu
@@ -100,13 +100,14 @@ description: 'In these recordings, we recorded neuronal activities from cortical
   by selectively activating excitatory neurons," The Journal of Neuroscience, DOI:
   10.1523/JNEUROSCI.2218-24.2025, 2025.  If you would use part of the dataset, please
   cite the above publication.'
+doi: 10.48324/dandi.000946/0.250711.1640
 ethicsApproval: []
-id: DANDI:000946/draft
+id: DANDI:000946/0.250711.1640
 identifier: DANDI:000946
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000946/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000946/0.250711.1640/assets.yaml
 name: Neural Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial
   Focused Ultrasound Stimulation
 publishedBy:
@@ -125,6 +126,6 @@ relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-url: https://dandiarchive.org/dandiset/000946/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000946/0.250711.1640
+version: 0.250711.1640
 wasGeneratedBy: []
