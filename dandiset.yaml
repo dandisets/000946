@@ -81,6 +81,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-03-30T06:04:45.523293+00:00'
+datePublished: '2025-07-11T16:40:31.477406+00:00'
 description: 'In these recordings, we recorded neuronal activities from cortical-thalamocortical
   (CTC) pathway, including the somatosensory cortex (S1) posteromedial complex (POm)
   of the thalamus responded to different PRFs (pulse repetition frequencies) or Pulse
@@ -108,6 +109,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000946/versions/draft/assets/
 name: Neural Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial
   Focused Ultrasound Stimulation
+publishedBy:
+  endDate: '2025-07-11T16:40:31.477406+00:00'
+  id: urn:uuid:8c0f226c-5789-44fe-a962-53739976e6cb
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-07-11T16:40:31.477406+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:8e9109d9-c036-439b-be0d-dc3bf5e10aeb
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
