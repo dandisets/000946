@@ -81,7 +81,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-03-30T06:04:45.523293+00:00'
-datePublished: '2025-07-11T16:40:31.477406+00:00'
+datePublished: '2025-07-11T19:45:53.369589+00:00'
 description: 'In these recordings, we recorded neuronal activities from cortical-thalamocortical
   (CTC) pathway, including the somatosensory cortex (S1) posteromedial complex (POm)
   of the thalamus responded to different PRFs (pulse repetition frequencies) or Pulse
@@ -95,11 +95,11 @@ description: 'In these recordings, we recorded neuronal activities from cortical
   is 1500Hz and PD is 200us.Each recording contains two areas (64-channel). The spike
   time tiling coefficient (STTC) of neurons cross-area and within-area is included
   in the folders named with STTC.  The detailed description on the data can be found
-  in the following publication:  Gao H, Ramachandran S, Yu K, He B: "Transcranial
-  focused ultrasound modulates feedforward and feedback cortico-thalamo-cortical pathways
-  by selectively activating excitatory neurons," The Journal of Neuroscience, DOI:
-  10.1523/JNEUROSCI.2218-24.2025, 2025.  If you would use part of the dataset, please
-  cite the above publication.'
+  in the following publication:   Gao, H., Ramachandran, S., Yu, K., & He, B. (2025).
+  Transcranial Focused Ultrasound Modulates Feedforward and Feedback Cortico-Thalamo-Cortical
+  Pathways by Selectively Activating Excitatory Neurons. The Journal of Neuroscience,
+  45(23), e2218242025. https://doi.org/10.1523/JNEUROSCI.2218-24.2025.  If you would
+  use part of the dataset, please cite the above publication.'
 ethicsApproval: []
 id: DANDI:000946/draft
 identifier: DANDI:000946
@@ -110,13 +110,13 @@ manifestLocation:
 name: Neural Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial
   Focused Ultrasound Stimulation
 publishedBy:
-  endDate: '2025-07-11T16:40:31.477406+00:00'
-  id: urn:uuid:8c0f226c-5789-44fe-a962-53739976e6cb
+  endDate: '2025-07-11T19:45:53.369589+00:00'
+  id: urn:uuid:d247beb9-8a76-4bcc-a5b8-3d2249be21b8
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-07-11T16:40:31.477406+00:00'
+  startDate: '2025-07-11T19:45:53.369589+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:8e9109d9-c036-439b-be0d-dc3bf5e10aeb
+  - id: urn:uuid:74a66cf7-86aa-4b9e-900a-45904ff2bc39
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
