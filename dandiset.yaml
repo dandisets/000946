@@ -33,7 +33,7 @@ assetsSummary:
   - ElectrodeGroup
 citation: Gao, Huan; Ramachandran, Sandhya; Yu, Kai; He, Bin (2025) Neural Pathways
   Modulation in the Anesthetized Rat Elicited by Trials of Transcranial Focused Ultrasound
-  Stimulation (Version 0.250828.1938) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000946/0.250828.1938
+  Stimulation (Version 0.250829.1249) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000946/0.250829.1249
 contributor:
 - affiliation: []
   email: huangao@andrew.cmu.edu
@@ -75,12 +75,12 @@ contributor:
   roleName:
   - dcite:Affiliation
   schemaKey: Organization
-- name: RF1NS131069
+- name: NIH NS131069
   roleName:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-03-30T06:04:45.523293+00:00'
-datePublished: '2025-08-28T19:38:04.885429+00:00'
+datePublished: '2025-08-29T12:49:18.796907+00:00'
 description: 'In these recordings, we recorded neuronal activities from cortical-thalamocortical
   (CTC) pathway, including the somatosensory cortex (S1) and posteromedial complex
   (POm) of the thalamus responded to different PRFs (pulse repetition frequencies)
@@ -99,24 +99,24 @@ description: 'In these recordings, we recorded neuronal activities from cortical
   Pathways by Selectively Activating Excitatory Neurons. The Journal of Neuroscience,
   45(23), e2218242025. https://doi.org/10.1523/JNEUROSCI.2218-24.2025.  If you would
   use part of the dataset, please cite the above publication.'
-doi: 10.48324/dandi.000946/0.250828.1938
+doi: 10.48324/dandi.000946/0.250829.1249
 ethicsApproval: []
-id: DANDI:000946/0.250828.1938
+id: DANDI:000946/0.250829.1249
 identifier: DANDI:000946
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/000946/0.250828.1938/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/000946/0.250829.1249/assets.yaml
 name: Neural Pathways Modulation in the Anesthetized Rat Elicited by Trials of Transcranial
   Focused Ultrasound Stimulation
 publishedBy:
-  endDate: '2025-08-28T19:38:04.885429+00:00'
-  id: urn:uuid:105689df-82d5-4b3a-b423-f3fae81dd0a6
+  endDate: '2025-08-29T12:49:18.796907+00:00'
+  id: urn:uuid:0e17caee-9011-402c-9e89-302e843433ac
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-08-28T19:38:04.885429+00:00'
+  startDate: '2025-08-29T12:49:18.796907+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:7f856f1e-f126-4b56-9b16-dad8cf3b77f2
+  - id: urn:uuid:8195c214-dd17-4486-87e4-7360f7af79a9
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -125,6 +125,6 @@ relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-url: https://dandiarchive.org/dandiset/000946/0.250828.1938
-version: 0.250828.1938
+url: https://dandiarchive.org/dandiset/000946/0.250829.1249
+version: 0.250829.1249
 wasGeneratedBy: []
